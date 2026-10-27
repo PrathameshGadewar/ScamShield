@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python database
+*.db
+*.sqlite
+*.sqlite3
+backend/scamshield.db
+
+# Node.js & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.tmp/
+dist/
+
+# Large Model weights and archives (do not commit large binaries to Git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.pkl
+*.zip
+*.tar.gz
+backend/model/final_model/model.safetensors
+backend/model/final_model/training_args.bin
+backend/model/*.zip
+backend/model/ScamShield_model/
+Trained Model/
+
+# Datasets
+datasets/
+sms+spam+collection/
+sms+spam+collection.zip
+
+# Environment & Local Configuration
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+!*.env.example
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
